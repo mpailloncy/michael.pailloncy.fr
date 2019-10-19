@@ -1,0 +1,48 @@
+baseURL = "https://michael.pailloncy.fr/"
+languageCode = "en-us"
+title = "Michaël Pailloncy"
+theme = "hello-friend-ng"
+
+[author]
+  name = "Michaël Pailloncy"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  homeSubtitle = "{Dev,Automation,Ops} Engineer"
+
+  description = "Homepage and blog of Michael Pailloncy"
+  keywords = "automation, development, ops, devops, mpailloncy, michael, pailloncy, blog"
+  images = ["img/mpailloncy.jpg"]
+  contentTypeName = "posts"
+  defaultTheme = "light"
+
+  [params.logo]
+    logoText = "$ automate &>/dev/blog"
+    logoColor = "#00cc00"
+    logoHomeLink = "/"
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/mpailloncy"
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/mpailloncy"
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/michaël-pailloncy-21119827"
+  [[params.social]]
+    name = "email"
+    url  = "mailto:michael.pailloncy@gmail.com"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name       = "Posts"
+    url        = "/posts"
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about"
