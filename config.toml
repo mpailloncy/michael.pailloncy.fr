@@ -16,7 +16,6 @@ theme = "hello-friend-ng"
 
   description = "Homepage and blog of Michael Pailloncy"
   keywords = "automation, development, ops, devops, mpailloncy, michael, pailloncy, blog"
-  images = ["img/mpailloncy.jpg"]
   contentTypeName = "posts"
   defaultTheme = "light"
 
@@ -38,10 +37,10 @@ theme = "hello-friend-ng"
     url  = "mailto:michael.pailloncy@gmail.com"
 
 [menu]
-  [[menu.main]]
-    identifier = "posts"
-    name       = "Posts"
-    url        = "/posts"
+  # [[menu.main]]
+  #   identifier = "posts"
+  #   name       = "Posts"
+  #   url        = "/posts"
   [[menu.main]]
     identifier = "about"
     name       = "About"
